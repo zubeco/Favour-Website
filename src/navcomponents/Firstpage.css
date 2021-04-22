@@ -1,0 +1,532 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;900&family=Open+Sans:wght@300&family=Poppins:wght@500;700&family=Raleway:wght@900&family=Roboto:wght@100;300;900&family=RocknRoll+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;900&family=Open+Sans:wght@300&family=Poppins:wght@500;700&family=Quicksand:wght@300&family=Raleway:wght@900&family=Roboto:wght@100;300;900&family=RocknRoll+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Montserrat:wght@100;200;300;900&family=Open+Sans:wght@300&family=Poppins:wght@500;700&family=Quicksand:wght@300&family=Raleway:wght@900&family=Roboto:wght@100;300;900&family=RocknRoll+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Karla&family=Montserrat:wght@100;200;300;900&family=Open+Sans:wght@300&family=Poppins:wght@500;700&family=Quicksand:wght@300&family=Raleway:wght@900&family=Roboto:wght@100;300;900&family=RocknRoll+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Karla&family=Manrope&family=Montserrat:wght@100;200;300;900&family=Open+Sans:wght@300&family=Poppins:wght@500;700&family=Quicksand:wght@300&family=Raleway:wght@900&family=Roboto:wght@100;300;900&family=RocknRoll+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=IBM+Plex+Sans&family=Karla&family=Manrope&family=Montserrat:wght@100;200;300;900&family=Open+Sans:wght@300&family=Poppins:wght@500;700&family=Quicksand:wght@300&family=Raleway:wght@900&family=Roboto:wght@100;300;900&family=RocknRoll+One&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    height: 50vh;
+}
+
+.head{
+    margin-top: 80px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 25px;
+    font-size: 40px;
+  }
+
+  .child1{
+      width: 300px;
+      height: 50px;
+      background-color: black;
+  }
+  
+  .child1 h4{
+      padding-top: 8px;
+      padding-left: 15px;
+  }
+
+  .child1 h3{
+      padding-left: 15px;
+  }
+
+  .child1 h5{
+      margin-top: 30px;
+      font-size: 17px;
+      font-family: 'Heebo', sans-serif;
+  }
+
+  .child1 p{
+    font-family: 'Manrope', sans-serif;
+    color: #666;
+    font-size: 15px;
+    margin-top: 15px;
+  }
+
+  .gen{
+    display: flex;
+    justify-content: space-around; 
+    margin: 0px 30px;
+  }
+  
+  .child1 h4{
+    font-family: 'Quicksand', sans-serif;
+    color: yellow;
+    font-size: 11px;
+  }
+
+  .gen h3{
+      color: white;
+      font-family: 'Karla', sans-serif;
+      font-size: 17px;
+      
+  }
+
+  .sua{
+      height: 50vh;
+      color: white;
+      background-color: black;
+      text-align: center;
+      justify-content: center;  
+      width: 100%;
+
+    }
+
+    .move{
+        font-size: 40px;
+        padding-top: 100px;
+        font-family: 'Roboto', sans-serif;
+        padding-bottom: 80px;
+    }
+
+    .sua h6{
+        font-size: 20px;
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    .green{
+        color: #00af1a;
+    }
+
+    .bro{
+        display: flex;
+        height: 50vh;
+    }
+
+    .clutch{
+        width: 25%;
+        height: 100%;
+        margin-left: 300px;
+        margin-right: 100px;
+    }
+
+    .child2{
+      width: 300px;
+      height: 30px;
+      margin-top: 30px;
+      align-content: center;
+      justify-content: center;
+    }
+
+    .child2 h4{
+        font-family: 'Karla', sans-serif;
+        color: yellow;
+        color: yellow;
+        background-color: black;
+        width: 150px;
+        height: 30px;
+        font-size: 15px;
+        padding-top: 6px;
+        padding-left: 6px;
+        margin-bottom: 20px;
+      }
+
+      .child2 h3{
+          font-family: 'IBM Plex Sans', sans-serif;
+          font-size: 23px;
+          padding-bottom: 5px;
+          font-weight: 700;
+      }
+
+      .child2 p{
+        font-family: 'Manrope', sans-serif;
+        color: #666;
+        font-size: 15px;
+        margin-top: 15px;
+      }
+
+      .tell-us{
+          height: 80vh;
+          width: 100%;
+      }
+
+      .green{
+        width: 100%;
+        height: 100%;
+      }
+
+      .tell-us h1{
+        position: absolute;
+        top: 260%;
+        left: 30%;
+        color: white  ;
+        font-size: 40px ;
+        font-family: 'RocknRoll One', sans-serif;
+      } 
+
+      .tell-us h3{
+        position: absolute;
+        top: 280%;
+        left: 45%;
+        color: black  ;
+        font-size: 25px ;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 700;
+        background-color: yellow;
+        width: 200px;
+        height: 55px;
+        padding-top: 9px;
+        padding-left: 32px;
+        border-radius: 7px;
+      }
+
+      .gen2{
+        display: flex;
+        justify-content: space-around; 
+        margin: 0px 130px;
+      }
+
+      .last{
+          height: 70vh;
+      }
+
+      .last h1{
+          text-align: center;
+          font-family: 'Roboto', sans-serif;
+          font-size: 35px;
+          line-height: 36px;
+          margin-top: 100px;
+          margin-bottom: 30px;
+      }
+
+      .children1{
+        width: 300px;
+        height: 50px;
+      }
+
+      .children1 p{
+        font-family: 'Manrope', sans-serif;
+        color: #666;
+        font-size: 15px;
+        font-style: italic;
+      }
+
+      .firstimage{
+        width: 60%;
+      }
+
+      .children1 h4{
+          margin-top: 20px;
+          color: #666;
+          font-size: 15px;
+          font-family: 'Manrope', sans-serif;
+          font-weight: 800;
+      }
+
+      .footer{
+          background-color: black;
+          color: white;
+          height: 50vh;
+      }
+
+      .footer-container{
+          justify-content: space-around;
+          display: flex;
+          margin: 0px 350px;
+      }
+
+      .footer h2{
+        margin-top: 50px;
+        margin-bottom: 10px;
+        font-family: 'Roboto', sans-serif;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 700;
+      }
+     
+      .footer p{
+        font-family: Manrope, sans-serif;
+        color: #c5c3c3;
+        font-size: 12px;
+        text-decoration: none;
+        width: 80px;
+      }
+
+      .footerimage{
+          width: 12%;
+          margin-top: 30px;
+          margin-left: 390px;
+      }
+
+      .site-footer{
+        margin-top: 24px;
+        margin-bottom: 5px;
+        font-family: Manrope, sans-serif;
+        color: #999;
+        text-align: center;
+        letter-spacing: 1px;
+      }
+
+      .site-footer2{
+        margin-top: 10px;
+        margin-bottom: 24px;
+        font-family: Manrope, sans-serif;
+        color: #999;
+        text-align: center;
+        letter-spacing: 1px;
+        margin-left: 635px;
+      }
+
+      @media all and (max-width: 917px){
+
+        .child1 h4{
+          font-size: 10px;
+        }
+
+        .child1 h3{
+          font-size: 13px;
+        }
+
+        .child1 h5{
+          font-size: 15px;
+        }
+
+        .child1 p{
+          font-size: 12px;
+        }
+
+        .child2 h3{
+          font-size: 15px;
+        }
+
+        .clutch{
+          margin-left: 0px;
+        }
+
+        .children1 p{
+          font-size: 15px;
+        }
+
+      }
+      
+
+      @media all and (max-width: 990px){
+
+        .children1 p{
+          font-size: 13px;
+        }
+
+        .child2 p{
+          font-size: 13px;
+        }
+
+        .clutch{
+          width: 25%;
+          height: 100%;
+          margin-left: 250px;
+          margin-right: 100px;
+      }
+        .tell-us h1{
+          left: 23%;
+        } 
+
+        .tell-us h3{
+          left: 42%; 
+        }
+
+        .first-footer{
+          padding-left: 60px;
+        }
+
+        .footerimage{
+          width: 12%;
+          margin-top: 30px;
+          margin-left: 250px;
+         }
+
+         .site-footer2{
+          margin-left: 0px;
+         }
+        
+      }
+
+      @media all and (max-width: 440px){
+          .head{
+            margin-top: 0px;
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+            margin-bottom: 25px;
+            font-size: 24px;
+          }
+
+          .gen{
+            display: block;
+            justify-content: space-around;          
+          }
+
+          .child1{
+            width: 300px;
+            height: 50px;
+            background-color: black;
+            margin-bottom: 200px;
+        }
+
+          .container{
+            height: 130vh;
+        }
+
+        .sua{
+          height: 45vh;
+          color: white;
+          background-color: black;
+          text-align: center;
+          justify-content: center;  
+    
+        }
+
+        .sua h6{
+          color: yellow;
+          font-size: 12px;
+          font-family: Manrope, sans-serif;
+        }
+
+        .move{
+          font-size: 25px;
+          padding-top: 100px;
+          font-family: 'Roboto', sans-serif;
+          padding-bottom: 50px;
+      }
+
+
+        .bro{
+          display: block;
+          height: 115vh;
+        }
+
+
+        .clutch{
+          width: 70%;
+          height: 45%;
+          margin-left: 58px;
+          margin-right: 0px;
+        }
+
+
+        .child2{
+          width: 300px;
+          height: 70px;
+          margin-top: 50px;
+          padding-left: 30px;
+        }
+
+          .tell-us{
+          height: 80vh;
+        }
+
+        .green{
+          width: 100%;
+          height: 80%;
+        }
+
+
+        .tell-us h1{
+          font-size: 25px;
+          position: absolute;
+          top: 380%;
+          left: 4%;
+          width: 401px;
+         
+        }
+
+        .tell-us h3{
+          position: absolute;
+          top: 390%;
+          left: 30%;
+          color: black  ;
+          font-size: 20px ;
+          font-family: 'IBM Plex Sans', sans-serif;
+          font-weight: 700;
+          background-color: yellow;
+          width: 150px;
+          height: 40px;
+          padding-top: 8px;
+          padding-left:20px;
+          border-radius: 7px;
+        }
+
+        .last{
+          height: 240vh;
+        }
+
+        .gen2{
+          display: block;
+          margin: 0px 0px;
+          padding-left: 70px;
+          height: 90vh;
+        }
+
+        .last h1{
+          text-align: center;
+          font-family: 'Roboto', sans-serif;
+          font-size: 30px;
+          line-height: 36px;
+          margin-top: 0px;
+          margin-bottom: 20px;
+      }
+
+      .children1{
+        width: 80%;
+        height: 90vh;
+      }
+
+      .children1 p{
+        font-size: 14px;
+      }
+
+      .firstimage{
+        width: 80%;
+        margin-left:0px ;
+      }
+
+      .footer{
+        background-color: black;
+        color: white;
+        height: 150vh;
+      }
+
+      .footer-container{
+        justify-content: space-around;
+        display: block;
+        margin: 0px;
+        padding-top: 20px;
+        padding-left: 40px;
+      }
+
+      .site-footer{
+        font-size: 13px;
+      }
+
+      .site-footer2{
+        margin-left: 0px;
+        font-size: 12px;
+      }
+
+      .footerimage{
+        width: 20%;
+        margin-top: 30px;
+        margin-left: 100px;
+       }
+       
+      }
+
+      @media all and (max-width: 343px){
+        
+      .tell-us h1{
+        position: absolute;
+        top: 380%;
+        left: 15%;
+        color: white  ;
+        font-size: 17px ;
+        font-family: 'RocknRoll One', sans-serif;
+      }
+    }

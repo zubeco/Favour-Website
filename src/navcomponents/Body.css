@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Open+Sans:wght@300&family=Roboto:wght@100;300&family=RocknRoll+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;900&family=Open+Sans:wght@300&family=Poppins:wght@500;700&family=Raleway:wght@900&family=Roboto:wght@100;300;900&family=RocknRoll+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;900&family=Open+Sans:wght@300&family=Poppins:wght@500;700&family=Quicksand:wght@300&family=Raleway:wght@900&family=Roboto:wght@100;300;900&family=RocknRoll+One&display=swap');
+
+.image {
+  width: 100%;
+  height: 100%;
+}
+
+.imageWrapper {
+  height: 60vh;
+}
+
+.centered{
+  position: absolute;
+  top: 25%;
+  left: 30%;
+  color: white  ;
+  font-size: 40px ;
+  font-family: 'RocknRoll One', sans-serif;
+  width: 100%;
+}
+
+.under{
+  position: absolute;
+  top: 45%;
+  left: 29%;
+  font-size: 20px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.arrow{
+  position: absolute;
+  top: 60%;
+  left:47%;
+  color: white;
+  font-size: 50px;
+}
+
+@media all and (max-width: 990px){
+  .centered{
+    left: 25%;
+  }
+  
+  .under{
+    left: 20%;
+  }
+
+  .arrow{
+    left: 50%;
+  }
+}
+
+@media all and (max-width: 440px){
+
+  .image {
+    width: 100%;
+    height: 80%;
+  }
+
+  .imageWrapper {
+    height: 50vh;
+  }
+  
+
+  .centered{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    color: white  ;
+    font-size: 18 px ;
+    font-family: 'RocknRoll One', sans-serif;
+    width: auto;
+  }
+
+  .under{
+    position: absolute;
+    top: 35%;
+    left: 12%;
+    font-size: 12px;
+    color: white;
+    line-height: 24px;
+    font-family: 'Manrope', sans-serif;
+  }
+
+  .arrow{
+    position: absolute;
+    top: 43%;
+    left:47%;
+    color: white;
+    font-size: 30px;
+  }
+  
+}
+
+    @media only all and (max-width: 2365px){
+      .centered{
+        position: absolute;
+        top: 30%;
+        left: 35%;
+        color: white  ;
+        font-size: 30px ;
+        font-family: 'RocknRoll One', sans-serif;
+      }
+
+      .under{
+        position: absolute;
+        top: 45%;
+        left: 25%;
+        font-size: 25px;
+        color: white;
+        font-family: 'IBM Plex Sans', sans-serif;
+      }
+    }
+
+      @media only all and (max-width: 931px){
+        .centered{
+          position: absolute;
+          top: 30%;
+          left: 37%;
+          color: white  ;
+          font-size: 20px ;
+          font-family: 'RocknRoll One', sans-serif;
+        }
+
+        .under{
+          position: absolute;
+          top: 45%;
+          left: 30%;
+          font-size: 15px;
+          color: white;
+          font-family: 'IBM Plex Sans', sans-serif;
+        }
+      }
+
+      @media only all and (max-width: 343px){
+        .image {
+          width: 100%;
+          height: 100%;
+        }
+      }
