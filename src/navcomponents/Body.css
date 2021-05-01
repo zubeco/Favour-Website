@@ -2,142 +2,250 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Open+Sans:wght@300&family=Roboto:wght@100;300&family=RocknRoll+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;900&family=Open+Sans:wght@300&family=Poppins:wght@500;700&family=Raleway:wght@900&family=Roboto:wght@100;300;900&family=RocknRoll+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;900&family=Open+Sans:wght@300&family=Poppins:wght@500;700&family=Quicksand:wght@300&family=Raleway:wght@900&family=Roboto:wght@100;300;900&family=RocknRoll+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;900&family=Open+Sans:wght@300&family=Poppins:wght@500;700&family=Raleway:wght@900&family=Roboto:wght@100;300;900&family=RocknRoll+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;900&family=Open+Sans:wght@300&family=Poppins:wght@500;700&family=Quicksand:wght@300&family=Raleway:wght@900&family=Roboto:wght@100;300;900&family=RocknRoll+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Montserrat:wght@100;200;300;900&family=Open+Sans:wght@300&family=Poppins:wght@500;700&family=Quicksand:wght@300&family=Raleway:wght@900&family=Roboto:wght@100;300;900&family=RocknRoll+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Karla&family=Montserrat:wght@100;200;300;900&family=Open+Sans:wght@300&family=Poppins:wght@500;700&family=Quicksand:wght@300&family=Raleway:wght@900&family=Roboto:wght@100;300;900&family=RocknRoll+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Karla&family=Manrope&family=Montserrat:wght@100;200;300;900&family=Open+Sans:wght@300&family=Poppins:wght@500;700&family=Quicksand:wght@300&family=Raleway:wght@900&family=Roboto:wght@100;300;900&family=RocknRoll+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=IBM+Plex+Sans&family=Karla&family=Manrope&family=Montserrat:wght@100;200;300;900&family=Open+Sans:wght@300&family=Poppins:wght@500;700&family=Quicksand:wght@300&family=Raleway:wght@900&family=Roboto:wght@100;300;900&family=RocknRoll+One&display=swap');
+
 
 .image {
   width: 100%;
   height: 100%;
 }
 
-.imageWrapper {
+.general-wrapper{
   height: 60vh;
+  text-align: center;
 }
 
 .centered{
   position: absolute;
-  top: 25%;
-  left: 30%;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   color: white  ;
-  font-size: 40px ;
+  font-size: 30px ;
   font-family: 'RocknRoll One', sans-serif;
-  width: 100%;
 }
 
 .under{
   position: absolute;
-  top: 45%;
-  left: 29%;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   font-size: 20px;
   color: white;
+  font-weight: 500;
   font-family: 'Montserrat', sans-serif;
 }
 
 .arrow{
   position: absolute;
-  top: 60%;
+  top: 65%;
   left:47%;
   color: white;
   font-size: 50px;
 }
 
-@media all and (max-width: 990px){
+@media all and (max-width: 850px){
   .centered{
-    left: 25%;
-  }
-  
-  .under{
-    left: 20%;
+    font-size: 23px;
   }
 
-  .arrow{
-    left: 50%;
+  .under{
+    font-size: 18px;
+    top: 50%;
   }
 }
 
-@media all and (max-width: 440px){
-
-  .image {
-    width: 100%;
-    height: 80%;
-  }
-
-  .imageWrapper {
-    height: 50vh;
-  }
-  
-
+@media all and (max-width: 600px){
   .centered{
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    color: white  ;
-    font-size: 18 px ;
-    font-family: 'RocknRoll One', sans-serif;
-    width: auto;
+    font-size: 18px;
   }
 
   .under{
-    position: absolute;
-    top: 35%;
-    left: 12%;
-    font-size: 12px;
+    font-size: 15px;
+  }
+
+  .arrow{
+    left: 45%;
+  }
+}
+
+@media all and (max-width: 500px){
+  .centered{
+    font-size: 15px;
+  }
+
+  .under{
+    font-size: 13px;
+  }
+}
+
+
+.head{
+  padding-top: 60px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.child-container{
+  display: grid;
+  grid-template-columns:30% 30% 30%;
+  margin-top: 60px;
+  margin-left: 40px;
+  margin-right: 40px;
+  grid-column-gap:2em ;
+  grid-row-gap:1em ;
+  grid-auto-rows: minmax(300px, auto);
+  justify-content: center;
+}
+
+
+
+.child1{
+  width: 100%;
+  height: 70px;
+  background-color: black;
+}
+
+.child1 h4{
+  font-size: 20px;
+  padding-top: 8px;
+  font-family: 'Quicksand', sans-serif;
+  color: yellow;
+}
+
+.child1 h3{
     color: white;
-    line-height: 24px;
+  font-family: 'Karla', sans-serif;
+  font-size: 20px;
+}
+
+.child1 h5{
+  margin-top: 30px;
+  font-size: 23px;
+  font-family: 'Heebo', sans-serif;
+}
+
+.child1 p{
+font-family: 'Manrope', sans-serif;
+color: #666;
+font-size: 17px;
+margin-top: 15px;
+margin-bottom: 30px;
+}
+
+
+
+
+@media all and (max-width: 1050px){
+  .child-container{
+    display: grid;
+    grid-template-columns:80%;
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+    grid-column-gap:2em ;
+    grid-row-gap:1em ;
+    grid-auto-rows: minmax(250px, auto);
+    justify-content: center;
+    margin-bottom: 70px;
+  }
+
+  .child1 p{
     font-family: 'Manrope', sans-serif;
-  }
-
-  .arrow{
-    position: absolute;
-    top: 43%;
-    left:47%;
-    color: white;
-    font-size: 30px;
-  }
-  
-}
-
-    @media only all and (max-width: 2365px){
-      .centered{
-        position: absolute;
-        top: 30%;
-        left: 35%;
-        color: white  ;
-        font-size: 30px ;
-        font-family: 'RocknRoll One', sans-serif;
-      }
-
-      .under{
-        position: absolute;
-        top: 45%;
-        left: 25%;
-        font-size: 25px;
-        color: white;
-        font-family: 'IBM Plex Sans', sans-serif;
-      }
+    color: #666;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 30px;
     }
 
-      @media only all and (max-width: 931px){
-        .centered{
-          position: absolute;
-          top: 30%;
-          left: 37%;
-          color: white  ;
-          font-size: 20px ;
-          font-family: 'RocknRoll One', sans-serif;
-        }
 
-        .under{
-          position: absolute;
-          top: 45%;
-          left: 30%;
-          font-size: 15px;
-          color: white;
-          font-family: 'IBM Plex Sans', sans-serif;
-        }
-      }
+}
 
-      @media only all and (max-width: 343px){
-        .image {
-          width: 100%;
-          height: 100%;
-        }
-      }
+@media all and (max-width: 600px){
+  .child-container{
+    display: grid;
+    grid-template-columns:80%;
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+    grid-column-gap:2em ;
+    grid-row-gap:1em ;
+    grid-auto-rows: minmax(350px, auto);
+    justify-content: center;
+    margin-bottom: 70px;
+  }
+
+}
+
+@media all and (max-width: 430px){
+  .child-container{
+    display: grid;
+    grid-template-columns:80%;
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+    grid-column-gap:2em ;
+    grid-row-gap:1em ;
+    grid-auto-rows: minmax(430px, auto);
+    justify-content: center;
+    margin-bottom: 70px;
+  }
+
+}
+
+.green{
+  width: 100%;
+  height: 70vh;
+}
+
+.hire{
+  position: relative;
+  height: 70vh;
+}
+
+.hire a{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  color: rgb(20, 19, 19);
+  background: #d5c455;
+  text-decoration: none;
+  align-items: center;
+  padding:10px 10px;
+  margin-right: 2px;
+  border: 1px solid #d5c455;
+  border-radius: 6px;
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  animation-name: heartbeat1;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease;
+  
+}
+
+@keyframes heartbeat1 {
+  from {
+    transform: scale(1)  ;
+  }
+  to {
+    transform: scale(1.5) ;
+  }
+}
+
+
+@media all and (max-width: 1050px){
+  .hire a{
+    position: absolute;
+    top: 50%;
+    left: 47%;
+    font-size: 15px;
+
+  }
+}

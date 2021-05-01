@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import logo from '../img/logo.png';
 import {Link} from 'react-router-dom';
 import './Navbar.css'
-import {  FaBars } from 'react-icons/fa';
+import { FaBars ,FaTimes } from 'react-icons/fa';
 
 const Navbar = () => {
 
@@ -10,31 +10,26 @@ const Navbar = () => {
 
 
 
-    const styles = {
-        textDecoration : 'none'
-    };
+    const decor = {
+        textDecoration: 'none'
+    }
+    
 
     return (
-        <nav>
-            <img className='logo' src={logo} alt="logo" />;
-            <ul className= 'me' style={{transform: popUp ? 'translateX(0px)' : 'translateX(-500px)'}}>
-                    <Link style = {styles} to="/about">
-                        <li  >About</li>
-                    </Link>
-                    <Link style = {styles} to="/team">
-                        <li>Team</li>
-                    </Link>
-                    <Link style = {styles}to="/services">
-                        <li >Services</li>
-                    </Link>
-                    <Link style = {styles}to="/contacts">
-                        <li>Contacts</li>
-                    </Link>
-            </ul>
-            <FaBars onClick={(() => setPopUp(!popUp))} className='bars'/>
-            
-
-        </nav>
+        <header>
+                 <img className='logo' src={logo} alt="logo" />
+                 <nav>
+                    <ul className={popUp ? 'me' : 'stay'}>
+                        <Link style={decor} to="/"><li>Home</li></Link>
+                        <Link style={decor} to="/about"><li>About</li></Link>
+                        <Link style={decor} to="/works"><li>Work</li></Link>
+                        <Link style={decor} to="/contact"><li>Contact</li></Link> 
+                     </ul>
+                 </nav>
+                 <div className='bars' onClick={() => setPopUp(!popUp)}>
+                   {popUp ? <FaTimes/> : <FaBars/>}
+                 </div>  
+        </header>
     )
 }
 
