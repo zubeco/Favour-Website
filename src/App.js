@@ -13,6 +13,7 @@ function App() {
     <Router>
         <div className="App">
             <Navbar/>
+            <Navbar/>
             <Switch >
              <Route path="/" component={Home} />
               <Route path="/about" component={About} />
