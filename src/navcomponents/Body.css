@@ -207,18 +207,22 @@ margin-bottom: 30px;
   height: 70vh;
 }
 
-.hire a{
+button a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+button{
   font-family: 'Roboto', sans-serif;
+  background: none;
   font-weight: 700;
   font-size: 25px;
-  color: rgb(20, 19, 19);
-  background: #d5c455;
+  color: rgb(224, 24, 24);
   text-decoration: none;
-  align-items: center;
-  padding:10px 10px;
+  padding:5px 15px;
   margin-right: 2px;
   border: 1px solid #d5c455;
-  border-radius: 6px;
+  border-radius: 50px;
   position: absolute;
   top: 50%;
   left: 45%;
@@ -240,12 +244,11 @@ margin-bottom: 30px;
 }
 
 
-@media all and (max-width: 1050px){
-  .hire a{
-    position: absolute;
+@media all and (max-width: 550px){
+  button{
     top: 50%;
-    left: 47%;
+    left: 42%;
     font-size: 15px;
-
+    padding:5px 10px;
   }
 }

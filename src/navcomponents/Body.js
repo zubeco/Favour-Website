@@ -32,12 +32,12 @@ const Body = () => {
         <>
             <div className='general-wrapper '>
                     <img className='image' src={image} alt="" />
-                    <h1 className='centered'>GROW SMART. GROW FAST</h1>
-                    <h3 className='under'>Accelerating growth and creating value for select companies</h3>
+                    <h1 className='centered'>EFFICIENCY AT ITS PEAK</h1>
+                    <h3 className='under'>SETTING THE PACE FOR EXCEPTIONAL PROFESSIONAL SERVICES AND CREATING VALUE</h3>
                     <br/>
                     <BsArrowBarDown className='arrow'/>
                     <div className='container'>
-                        <h2 className='head'>Why Phay'vo Consults ?</h2>
+                        <h2 className='head'>Our Services</h2>
                         <div className='child-container'>
                         {
                         details.map(detail => {
@@ -54,7 +54,7 @@ const Body = () => {
 
                      <div className="hire">
                             <img className='green' src={green} alt="" />
-                             <a href="/">Hire Us</a>
+                             <button><a href="/">Hire Us</a></button>
                      </div>
                      <Footer/>
             </div>
