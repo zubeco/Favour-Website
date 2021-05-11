@@ -17,7 +17,7 @@ const Navbar = () => {
 
     return (
         <header>
-                 <img className='logo' src={logo} alt="logo" />
+                 <a href="/"><img className='logo' src={logo} alt="logo" /></a>
                  <nav>
                     <ul className={popUp ? 'me' : 'stay'}>
                         <Link style={decor} to="/"><li>Home</li></Link>
