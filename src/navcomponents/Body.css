@@ -44,10 +44,12 @@
 .arrow{
   position: absolute;
   top: 65%;
-  left:47%;
+  left:49%;
   color: white;
   font-size: 50px;
+  cursor: pointer;
 }
+
 
 @media all and (max-width: 850px){
   .centered{
@@ -57,6 +59,14 @@
   .under{
     font-size: 18px;
     top: 50%;
+  }
+
+  .arrow{
+    position: absolute;
+    top: 65%;
+    left:8%;
+    color: rgb(216, 13, 13);
+    font-size: 50px;
   }
 }
 
@@ -69,9 +79,7 @@
     font-size: 15px;
   }
 
-  .arrow{
-    left: 45%;
-  }
+
 }
 
 @media all and (max-width: 500px){

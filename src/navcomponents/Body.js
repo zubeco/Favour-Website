@@ -4,6 +4,7 @@ import './Body.css'
 import green from '../img/green.jpg';
 import {  BsArrowBarDown } from 'react-icons/bs';
 import Footer from './Footer';
+import {Link} from 'react-scroll'
 
 
 const Body = () => {
@@ -35,7 +36,7 @@ const Body = () => {
                     <h1 className='centered'>EFFICIENCY AT ITS PEAK</h1>
                     <h3 className='under'>SETTING THE PACE FOR EXCEPTIONAL PROFESSIONAL SERVICES AND CREATING VALUE</h3>
                     <br/>
-                    <BsArrowBarDown className='arrow'/>
+                    <Link activeClass="active" to="scroll" spy={true} smooth={true}><BsArrowBarDown className='arrow'/></Link>
                     <div className='container'>
                         <h2 className='head'>Our Services</h2>
                         <div className='child-container'>
@@ -53,7 +54,7 @@ const Body = () => {
                      </div>
 
                      <div className="hire">
-                            <img className='green' src={green} alt="" />
+                            <img id="scroll" className='green' src={green} alt="" />
                              <button><a href="/">Hire Us</a></button>
                      </div>
                      <Footer/>
