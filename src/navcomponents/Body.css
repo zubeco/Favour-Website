@@ -48,6 +48,11 @@
   color: white;
   font-size: 50px;
   cursor: pointer;
+  animation-name: heartbeat1;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease;
 }
 
 
