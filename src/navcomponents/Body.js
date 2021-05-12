@@ -45,11 +45,11 @@ const Body = () => {
                     <Link activeClass="active" to="scroll" spy={true} smooth={true} duration={2500}><BsArrowBarDown className='arrow'/></Link>
                     <div className='container' >
                         <h2 className='head'>Our Services</h2>
-                        <div className='child-container' data-aos="fade-up">
+                        <div className='child-container' >
                         {
                         details.map(detail => {
                             return (
-                                    <div className="child1">
+                                    <div className="child1" data-aos="fade-up">
                                         <h4>{detail.title}</h4>
                                         <h3>{detail.description}</h3>
                                         <h5>{detail.skills}</h5>
