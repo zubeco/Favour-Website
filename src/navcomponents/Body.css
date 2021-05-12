@@ -66,13 +66,6 @@
     top: 50%;
   }
 
-  .arrow{
-    position: absolute;
-    top: 65%;
-    left:8%;
-    color: rgb(216, 13, 13);
-    font-size: 50px;
-  }
 }
 
 @media all and (max-width: 600px){
@@ -95,6 +88,7 @@
   .under{
     font-size: 13px;
   }
+  
 }
 
 
@@ -182,10 +176,11 @@ margin-bottom: 30px;
     font-family: 'Montserrat', sans-serif;
   }
   
+   
   .arrow{
     position: absolute;
     top: 50%;
-    left:47%;
+    left:48%;
     color: white;
     font-size: 50px;
     cursor: pointer;
@@ -212,7 +207,29 @@ margin-bottom: 30px;
     margin-bottom: 30px;
     }
 
+}
 
+@media all and (max-width: 670px){
+  .arrow{
+    position: absolute;
+    top: 50%;
+    left:46%;
+    color: white;
+    font-size: 50px;
+    cursor: pointer;
+  }
+}
+
+
+@media all and (max-width: 450px){
+  .arrow{
+    position: absolute;
+    top: 50%;
+    left:46%;
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+  }
 }
 
 @media all and (max-width: 540px){
