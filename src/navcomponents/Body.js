@@ -1,13 +1,19 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import image from '../img/image.jpg';
 import './Body.css'
 import green from '../img/green.jpg';
 import {  BsArrowBarDown } from 'react-icons/bs';
 import Footer from './Footer';
 import {Link} from 'react-scroll'
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 
 const Body = () => {
+    useEffect(() => {
+        Aos.init ({duration: 1000});
+    }, [])
+
     const details = [
         {
             title:'PARTNER',
@@ -36,10 +42,10 @@ const Body = () => {
                     <h1 className='centered'>EFFICIENCY AT ITS PEAK</h1>
                     <h3 className='under'>SETTING THE PACE FOR EXCEPTIONAL PROFESSIONAL SERVICES AND CREATING VALUE</h3>
                     <br/>
-                    <Link activeClass="active" to="scroll" spy={true} smooth={true}><BsArrowBarDown className='arrow'/></Link>
-                    <div className='container'>
+                    <Link activeClass="active" to="scroll" spy={true} smooth={true} duration={2500}><BsArrowBarDown className='arrow'/></Link>
+                    <div className='container' >
                         <h2 className='head'>Our Services</h2>
-                        <div className='child-container'>
+                        <div className='child-container' data-aos="fade-up">
                         {
                         details.map(detail => {
                             return (
@@ -53,11 +59,11 @@ const Body = () => {
                         </div>
                      </div>
 
-                     <div className="hire">
+                     <div className="hire" data-aos="fade-up">
                             <img id="scroll" className='green' src={green} alt="" />
                              <button><a href="/">Hire Us</a></button>
                      </div>
-                     <Footer/>
+                     <Footer />
             </div>
        </>
     )
